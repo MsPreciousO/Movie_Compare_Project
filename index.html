@@ -17,70 +17,98 @@
     
 </head>
 <body>
-    <!-- <nav class="navbar navbar-expand-lg bg-light-green">
-        <div class="class"></div>
         
-        <header>Movie Fight  <i class="fas fa-film"></i></header>
-            
-        </header>
-        
-    </nav> -->
-    <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+     <!-- </nav> -->
+    <!-- <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
             <a class="navbar-item p-5">
-            <h1>Movie Fight  <span><i class="fas fa-film"></i></span></h1>
+            <h1 class="navbar-height">Movie Fight  <span><i class="fas fa-film"></i></span></h1>
             </a>
-    <!-- navbar items, navbar burger... -->
+    <!-- navbar items, navbar burger... 
         </div>
-    </nav>
+    </nav>  -->
 
-    <div class="container">
-        <div class="notification">
-            <div class="columns">
-                <!-- <div class="column is-offset-1"></div> -->
-                <div class="column">
-                    
+    <section class="hero is-primary">
+        <div class="hero-body">
+          <p class="title"> Movie Fight <i class="fas fa-film"></i>
+        </p>
+          
+        </div>
+      </section>
 
-                    <div class="field">
-                        <label class="">Search for a Movie</label>
-                        <div class="control">
-                            <p class="control has-icons-left has-icons-right">
-                                <input class="input is-rounded " type="text" placeholder="search">
-                                <span class="icon is-small is-left">
-                                  <i class="fa fa-search"></i>
-                                </span>
-                              </p>
+      <section class="section">
+          
+        <div class="container">
+            <div class="notification">
+                <div class="columns is-centered">
+                
+                    <div class="column px-6">
+    
+                        <div class="field">
+                            <label class="">Search for a Movie</label>
+                            <div class="control">
+                                <p class="control has-icons-left has-icons-right">
+                                    <input class="input is-rounded" type="text" placeholder="search">
+                                    <span class="icon is-small is-left">
+                                      <i class="fa fa-search" is></i>
+                                    </span>
+                                    <span class="icon is-small is-right">
+                                        <i class="fa fa-check" is></i>
+                                      </span>
+                                  </p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="column">
 
-                    <div class="field">
-                        <label class="">Search for a Movie</label>
-                        <div class="control">
-                            <p class="control has-icons-left has-icons-right">
-                                <input class="input is-rounded " type="text" placeholder="search">
-                                <span class="icon is-small is-left">
-                                  <i class="fa fa-search"></i>
-                                </span>
-                              </p>
-                        </div>
-                      </div>
-
+                    <div class="column px-6">
+    
+                        <div class="field">
+                            <label class="">Search for a Movie</label>
+                            <div class="control">
+                                <p class="control has-icons-left has-icons-right">
+                                    <input class="input is-rounded " type="text" placeholder="search">
+                                    <span class="icon is-small is-left">
+                                      <i class="fa fa-search"></i>
+                                    </span>
+                                    <span class="icon is-small is-right">
+                                        <i class="fa fa-check" is></i>
+                                        
+                                      </span>
+                                  </p>
+                            </div>
+                          </div>
+    
+                    </div>
                 </div>
+    
             </div>
-
         </div>
-    </div>
-    <section>
-        <div class="movie-body"> Search for movie on both side to get to started</div>
+      </section>
+
+    
+    <section class="section ">
+        <!-- <div class="container is-dark is-max-desktop">
+            <div class="movie-body"> Search for movie on both side to get to started</div> -->
+
+            
+        </div>
+        <div class="file is-dark is-centered pt-6">
+            <label class="file-label p-6">
+                <input class="file-input" type="file" name="text">
+                <span class="file-cta">
+                    <span class="file-label px-6">
+                        Search for movie on both side to get to started
+                    </span>
+                </span>
+            </label>
+          </div>
+        
     </section>
 
 
-    
 
 
-
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="./script.js"></script>
 </body>
 </html>
