@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+    
+
+    <!-- --------BULMA style link -------->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+
+    <!-- Font Awesome style lik ------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+
+    <!-- -----Original style link ------->
+    <link rel="stylesheet" href="styles.css">
+    
+    <title>Movie Compare Project</title> 
+    
+</head>
+<body>
+        
+     <!-- </nav> -->
+    <!-- <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item p-5">
+            <h1 class="navbar-height">Movie Fight  <span><i class="fas fa-film"></i></span></h1>
+            </a>
+    <!-- navbar items, navbar burger... 
+        </div>
+    </nav>  -->
+
+    <section class="hero is-primary">
+        <div class="hero-body">
+            <p class="title"> Movie Fight <i class="fas fa-film"></i>
+            </p>
+
+            <!-- <span class="icon-text">
+                <span><h1 class="title has-text-white">Movie Fight</h1></span>
+                <span class="icon fas fa-2x"><i class="fas fa-film"></i></span>
+            </span> -->
+          
+        </div>
+    </section>
+
+    <section class="section">
+          
+        <div class="container">
+            <div class="notification">
+                <div class="columns is-centered">
+                
+                    <div class="column px-6">
+    
+                        <div class="field">
+                            <label class="">Search for a Movie</label>
+                            <div class="control">
+                                <form id="searchForm">
+
+                                    <p class="control has-icons-left has-icons-right">
+                                        <input class="input is-rounded" type="text" id="searchInput" placeholder="search">
+                                        <span class="icon is-small is-left">
+                                            <i class="fa fa-search" is></i>
+                                        </span>
+                                        <span class="icon is-small is-right">
+                                            <i class="fa fa-check" is></i>
+                                        </span>    
+                                    </p>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column px-6">
+    
+                        <div class="field">
+                            <label class="">Search for a Movie</label>
+                            <div class="control">
+                                <form id="searchForm" >
+
+                                    <p class="control has-icons-left has-icons-right">
+                                        <input class="input is-rounded" type="text" id="searchInput" placeholder="search">
+                                        <span class="icon is-small is-left">
+                                            <i class="fa fa-search" is></i>
+                                        </span>
+                                        <span class="icon is-small is-right">
+                                            <i class="fa fa-check" is></i>
+                                        </span>   
+                                    </p>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Movie Query Results -->
+    <div class="container">
+        <div id="movies" class="row"></div>
+    </div>
+      
+
+    
+    <section class="section ">
+        <!-- <div class="container is-dark is-max-desktop">
+            <div class="movie-body"> Search for movie on both side to get to started</div> -->
+
+        <div class="file container is-max-desktop is-centered pt-6">
+            <label class="file-label p-6">
+                <input class="file-input is success" type="text" >
+                <span class="file-cta">
+                    <span class="file-label px-6">
+                        Search for movie on both side to get to started
+                    </span>
+                </span>
+            </label>
+        </div>
+        
+    </section>
+
+
+
+<!-- -------Script Src------- -->
+   
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

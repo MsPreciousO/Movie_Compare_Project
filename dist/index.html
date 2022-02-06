@@ -5,14 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- --------BULMA -->
+    
+
+    <!-- --------BULMA style link -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
 
-    <!-- Font Awesome -->
-
+    <!-- Font Awesome style lik -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
 
+    <!-- -----Original style link -->
     <link rel="stylesheet" href="styles.css">
+    
     <title>Movie Compare Project</title> 
     
 </head>
@@ -30,13 +33,13 @@
 
     <section class="hero is-primary">
         <div class="hero-body">
-          <p class="title"> Movie Fight <i class="fas fa-film"></i>
-        </p>
+            <p class="title"> Movie Fight <i class="fas fa-film"></i>
+            </p>
           
         </div>
-      </section>
+    </section>
 
-      <section class="section">
+    <section class="section">
           
         <div class="container">
             <div class="notification">
@@ -47,15 +50,22 @@
                         <div class="field">
                             <label class="">Search for a Movie</label>
                             <div class="control">
-                                <p class="control has-icons-left has-icons-right">
-                                    <input class="input is-rounded" type="text" placeholder="search">
-                                    <span class="icon is-small is-left">
-                                      <i class="fa fa-search" is></i>
-                                    </span>
-                                    <span class="icon is-small is-right">
-                                        <i class="fa fa-check" is></i>
-                                      </span>
-                                  </p>
+                                <form id="searchForm" >
+
+                                    <p class="control has-icons-left has-icons-right">
+
+                                        <input class="input is-rounded" type="text" id="searchInput" placeholder="search">
+                                        <span class="icon is-small is-left">
+                                            <i class="fa fa-search" is></i>
+                                        </span>
+                                        <span class="icon is-small is-right">
+                                            <i class="fa fa-check" is></i>
+                                        </span> 
+                                        
+                                    </p>
+
+                                </form>
+                                
                             </div>
                         </div>
                     </div>
@@ -65,16 +75,21 @@
                         <div class="field">
                             <label class="">Search for a Movie</label>
                             <div class="control">
-                                <p class="control has-icons-left has-icons-right">
-                                    <input class="input is-rounded " type="text" placeholder="search">
-                                    <span class="icon is-small is-left">
-                                      <i class="fa fa-search"></i>
-                                    </span>
-                                    <span class="icon is-small is-right">
-                                        <i class="fa fa-check" is></i>
+                                <form id="searchForm" >
+
+                                    <p class="control has-icons-left has-icons-right">
+
+                                        <input class="input is-rounded" type="text" id="searchInput" placeholder="search">
+                                        <span class="icon is-small is-left">
+                                            <i class="fa fa-search" is></i>
+                                        </span>
+                                        <span class="icon is-small is-right">
+                                            <i class="fa fa-check" is></i>
+                                        </span> 
                                         
-                                      </span>
-                                  </p>
+                                    </p>
+
+                                </form>
                             </div>
                           </div>
     
@@ -83,7 +98,14 @@
     
             </div>
         </div>
-      </section>
+    </section>
+
+
+    <!-- Movie Query Results -->
+    <div class="container">
+        <div id="movies" class="row"></div>
+    </div>
+      
 
     
     <section class="section ">
@@ -107,8 +129,10 @@
 
 
 
-
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<!-- -------Script Src------- -->
     <script src="./script.js"></script>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    
+    
+<script defer src="%5Bmain%5D.cd4b3c9ad22d81ddc718.bundle.js"></script></body>
 </html>
